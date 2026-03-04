@@ -1,0 +1,14 @@
+screen:
+  id: gallery
+  title: Photos
+
+layout:
+  type: grid
+  source: /photos
+  columns:
+    mobile: 3
+    desktop: 6
+
+item:
+  image: thumbnail
+  onClick: details

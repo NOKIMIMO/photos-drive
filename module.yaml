@@ -1,0 +1,10 @@
+name: photo-storage
+version: 1.0.0
+backend:
+  type: spring-boot
+  entry: build/libs/photo-storage-module-1.0.0.jar
+ui:
+  path: ui/dist
+permissions:
+  - storage.read
+  - storage.write
